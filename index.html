@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>C1-EJERCICIO-7-LISTA-COMPRA - Formulario</title>
+  </head>
+  <body>
+    <header class="cabecera">
+      <h1>Lista de la compra</h1>
+      <nav class="navegacion">
+        <ul class="lista">
+          <li class="elemento-lista-navegacion">
+            <a href="./index.html">Principal</a>
+          </li>
+          <li class="elemento-lista-navegacion">
+            <a href="./lista.html"><span class="font-bold">Lista</span></a>
+          </li>
+          <li class="elemento-lista-navegacion">Acerca de</li>
+        </ul>
+      </nav>
+    </header>
+    <section class="seccion-compras">
+      <i class="icono fas fa-minus-circle"></i>
+      <p class="numero-articulos">2/3 comprados</p>
+    </section>
+    <main class="contenido">
+      <h2 class="titulo-seccion">Editar artículo</h2>
+      <form action="#" class="form">
+        <div class="campo-formulario">
+          <label class="label-formulario" for="nombre">Nombre:</label>
+          <input
+            class="input-formulario"
+            type="text"
+            name="nombre"
+            id="nombre"
+          />
+        </div>
+        <div class="campo-formulario">
+          <label class="label-formulario" for="precio">Precio:</label>
+          <input
+            class="input-formulario"
+            type="text"
+            name="precio"
+            id="precio"
+          /><span class="moneda">€</span>
+        </div>
+        <button type="submit" class="btn-formulario">Modificar</button>
+      </form>
+    </main>
+  </body>
+</html>

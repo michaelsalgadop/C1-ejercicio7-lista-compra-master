@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>C1-EJERCICIO-7-LISTA-COMPRA - Lista</title>
+  </head>
+  <body>
+    <header class="cabecera">
+      <h1>Lista de la compra</h1>
+      <nav class="navegacion">
+        <ul class="lista">
+          <li class="elemento-lista-navegacion">
+            <a href="./index.html">Principal</a>
+          </li>
+          <li class="elemento-lista-navegacion">
+            <a href="./lista.html"><span class="font-bold">Lista</span></a>
+          </li>
+          <li class="elemento-lista-navegacion">Acerca de</li>
+        </ul>
+      </nav>
+    </header>
+    <section class="seccion-compras">
+      <i class="icono fas fa-plus-circle"></i>
+      <p class="numero-articulos">2/3 comprados</p>
+    </section>
+    <main class="contenido">
+      <ul class="lista-articulos">
+        <li class="linea-articulo">
+          <input
+            type="checkbox"
+            class="checkbox-articulo"
+            name="articulo_1"
+            id="articulo_1"
+          />
+          <span class="nombre-articulo tachado">Pan</span>
+          <span class="importe-articulo">0.75€</span>
+          <i class="fas fa-times icono"></i>
+        </li>
+        <li class="linea-articulo">
+          <input
+            type="checkbox"
+            class="checkbox-articulo"
+            name="articulo_1"
+            id="articulo_1"
+          />
+          <span class="nombre-articulo">Azúcar</span>
+          <i class="fas fa-times icono"></i>
+        </li>
+        <li class="linea-articulo">
+          <input
+            type="checkbox"
+            class="checkbox-articulo"
+            name="articulo_1"
+            id="articulo_1"
+          />
+          <span class="nombre-articulo tachado">Leche</span>
+          <span class="importe-articulo">1.20€</span>
+          <i class="fas fa-times icono"></i>
+        </li>
+      </ul>
+      <hr />
+      <p class="total-lista-compra">1.95€</p>
+    </main>
+  </body>
+</html>
